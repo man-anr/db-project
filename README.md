@@ -1,36 +1,18 @@
 # db-project
-Task WIP submission:
+Quiz System for Student and Lecturer
 
-1. DBMS tools / Programming Language: Any Object-Oriented Programming Language
-2. User interface - front page, login page, modules (admin/lecturer/student)
+## Installation
 
-https://drive.google.com/file/d/1NZ7V6yTmpBO7TId37hso6kKmxdFZw-tF/view?usp=sharing
-2. [3 May 2021 @ 3:49 PM]
+[Clone the repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
 
-3/5/2021
+## Usage
 
-https://drive.google.com/file/d/1htMJQJHeX0reZjyY48wirqPcdG0tsHaX/view?usp=sharing
+For the meantime, you only run the [login.html](https://github.com/man-anr/db-project/blob/main/login.html) to preview the login page, unless you've installed [Wamp](https://www.wampserver.com/en/)
 
-Work in Progress:
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-ERD (26/4/2021)
+Please make sure to update tests as appropriate.
 
-Normalization (3.5.2021)
-3. [3 May 2021 @ 3:48 PM]
-
-3/5/2021
-
-https://drive.google.com/file/d/1htMJQJHeX0reZjyY48wirqPcdG0tsHaX/view?usp=sharing
-
- 
-4. [26 Apr 2021 @ 12:09 PM]
-
-Project briefing:
-
-https://drive.google.com/file/d/14QqjFmvu0wvJkDULi3gjgGG8PqxHXszC/view?usp=sharing
-
- 
-
-Work in Progress:
-
-ERD (26/4/2021)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
