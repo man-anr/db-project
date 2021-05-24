@@ -29,24 +29,27 @@
 					</div>
 					
 					<div class="card shadow-sm">
-						<div class="d-flex align-items-center justify-content-center card-footer py-3 border-0" role="group" data-toggle="buttons">
-							<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-								<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-								<label class="btn btn-outline-primary" for="btnradio1">Student</label>
-							  
-								<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-								<label class="btn btn-outline-primary" for="btnradio2">Lecturer</label>
-							  
-								<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-								<label class="btn btn-outline-primary" for="btnradio3">Admin</label>
-							  </div>
-						  </div>
-						<div class="card-body p-5">
 						
-							<form method="POST" class="needs-validation" novalidate="" autocomplete="off">
+						<div class="card-body p-5">
+
+						
+							<form name="f1" action = "jslogin.php" onsubmit = "return validation()" method = "POST" class="needs-validation" novalidate="" autocomplete="on">
+
+								<div class="d-flex align-items-center justify-content-center card-footer py-3 border-0" role="group" data-toggle="buttons">
+									<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+										<input type="radio" class="btn-check" name="usertype" id="btnradio1" value="student" autocomplete="off" checked>
+										<label class="btn btn-outline-primary" for="btnradio1">Student</label>
+									
+										<input type="radio" class="btn-check" name="usertype" id="btnradio2" value="lecturer" autocomplete="off">
+										<label class="btn btn-outline-primary" for="btnradio2">Lecturer</label>
+									
+										<input type="radio" class="btn-check" name="usertype" id="btnradio3" value="admin" autocomplete="off">
+										<label class="btn btn-outline-primary" for="btnradio3">Admin</label>
+									</div>
+								</div>
 								<div class="mb-3">
 									<label class="mb-2 text-muted" for="email">ID</label>
-									<input id="username" type="username" class="form-control" name="username" value="" required autofocus>
+									<input id="user" type="username" class="form-control" name="user" value="" required autofocus>
 									<div class="invalid-feedback">
 										ID is invalid
 									</div>
@@ -59,7 +62,7 @@
 											Forgot Password?
 										</a>
 									</div>
-									<input id="password" type="password" class="form-control" name="password" required>
+									<input id="pass" type="password" class="form-control" name="pass" required>
 								    <div class="invalid-feedback">
 								    	Password is required
 							    	</div>
@@ -93,34 +96,26 @@
 	</section>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script>
-	$(function(){
-		$('#login').click(function(e){
-			
-			var valid = this.form.checkValidity();
-
-			if(valid){
-				var username = $('#username').val();
-				var password = $('#password').val();
-			}
-
-			e.preventDefault();
-
-			$.ajax({
-				type: 'POST',
-				url: 'jslogin.php',
-				data:  {username: username, password: password},
-				success: function(data){
-					alert(data);
-					if($.trim(data) === "1"){
-						setTimeout(' window.location.href =  "index.php"', 1000);
-					}
-				},
-				error: function(data){
-					alert('there were erros while doing the operation.');
-				}
-			});
-		});
-	});
+         function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
 	
 
 </script>
