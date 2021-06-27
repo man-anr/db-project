@@ -1,0 +1,18 @@
+[24-Jun-2021 07:17:40 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:17:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 159
+[24-Jun-2021 07:17:40 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:17:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 159
+[24-Jun-2021 07:17:40 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:17:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 159
+[24-Jun-2021 07:18:50 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:18:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 159
+[24-Jun-2021 07:18:50 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:18:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 159
+[24-Jun-2021 07:18:50 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:18:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 159
+[24-Jun-2021 07:19:31 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:19:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 160
+[24-Jun-2021 07:19:31 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:19:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 160
+[24-Jun-2021 07:19:31 UTC] PHP Notice:  Undefined index: id in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 155
+[24-Jun-2021 07:19:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/assignment/index.php on line 160

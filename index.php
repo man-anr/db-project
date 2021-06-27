@@ -2,12 +2,12 @@
 
 session_start();
 	if(!isset($_SESSION['userlogin'])){
-		header("Location: ./login/login.php");
+		header("Location: ./auth/index.php");
 	}
 	if(isset($_GET['logout'])){
 		session_destroy();
 		unset($_SESSION);
-		header("Location: ./login/login.php");
+		header("Location: ./auth/index.php");
 	}
 
 ?>

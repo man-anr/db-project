@@ -1,0 +1,9 @@
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: quiz_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 4
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: enroll_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 5
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: quiz_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 9
+[24-Jun-2021 14:43:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 19
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: enroll_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 55
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: quiz_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 55
+[24-Jun-2021 14:43:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 62
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: enroll_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 69
+[24-Jun-2021 14:43:13 UTC] PHP Notice:  Undefined index: quiz_id in /home/tbeqcif27rmw/public_html/db-project/student/multiple/validate-answer.php on line 69
